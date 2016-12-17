@@ -34,7 +34,7 @@ body {
 
 .content-box {
   padding: 10%;
-  background-color: #fff;
+  background-color: #f2faf5;
   color: #3a3d30;
 }
 
@@ -64,11 +64,11 @@ body {
 }
 
 #skills {
-  background-image: url('/imgs/bg-dark.jpeg');
-  height: 50vh;
+  background-image: url('/imgs/bg-glass.jpg');
+  height: 70vh;
 }
 
 #business {
-  background-image: url('/imgs/bg-bus.jpeg');
+  background-image: url('/imgs/bg-bus.jpg');
   height: 50vh;
 }
