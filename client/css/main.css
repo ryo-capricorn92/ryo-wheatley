@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  background: url('/imgs/bg-light.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  background-color: inherit;
+}
+
+.center-parent {
+  position: relative;
+}
+
+.full-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  max-width: 100%;
+}
+
+.clear-box {
+  height: 100vh;
+}
+
+.content-box {
+  padding: 10%;
+  background-color: #fff;
+  color: #3a3d30;
+}
+
+.img-box {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.img-blurb {
+  max-width: 128px;
+}
+
+#bio {
+  width: 100%;
+  font-family: verdana;
+  font-size: 12px;
+  text-align: justify;
+}
+
+#bio h1 {
+  font-family: MarckScript;
+  font-size: 40px;
+}
+
+#skills {
+  background-image: url('/imgs/bg-dark.jpeg');
+  height: 50vh;
+}
+
+#business {
+  background-image: url('/imgs/bg-bus.jpeg');
+  height: 50vh;
+}
