@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'MarckScript';
+  src: url('/css/fonts/MarckScript/MarckScript-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/css/fonts/MarckScript/MarckScript-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/css/fonts/MarckScript/MarckScript-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/fonts/MarckScript/MarckScript-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/css/fonts/MarckScript/MarckScript-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/css/fonts/MarckScript/MarckScript-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ModernSerifEroded';
+  src: url('/css/fonts/ModernSerifEroded/ModernSerifEroded.eot'); /* IE9 Compat Modes */
+  src: url('/css/fonts/ModernSerifEroded/ModernSerifEroded.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/css/fonts/ModernSerifEroded/ModernSerifEroded.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/fonts/ModernSerifEroded/ModernSerifEroded.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/css/fonts/ModernSerifEroded/ModernSerifEroded.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/css/fonts/ModernSerifEroded/ModernSerifEroded.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
