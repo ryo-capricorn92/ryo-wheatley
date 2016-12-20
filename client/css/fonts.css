@@ -5,7 +5,7 @@
        url('/css/fonts/MarckScript/MarckScript-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('/css/fonts/MarckScript/MarckScript-Regular.woff') format('woff'), /* Pretty Modern Browsers */
        url('/css/fonts/MarckScript/MarckScript-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/css/fonts/MarckScript/MarckScript-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+       url('/css/fonts/MarckScript/MarckScript-Regular.svg#svgMarckScript') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -15,5 +15,5 @@
        url('/css/fonts/ModernSerifEroded/ModernSerifEroded.woff2') format('woff2'), /* Super Modern Browsers */
        url('/css/fonts/ModernSerifEroded/ModernSerifEroded.woff') format('woff'), /* Pretty Modern Browsers */
        url('/css/fonts/ModernSerifEroded/ModernSerifEroded.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/css/fonts/ModernSerifEroded/ModernSerifEroded.svg#svgFontName') format('svg'); /* Legacy iOS */
+       url('/css/fonts/ModernSerifEroded/ModernSerifEroded.svg#svgModernSerifEroded') format('svg'); /* Legacy iOS */
 }

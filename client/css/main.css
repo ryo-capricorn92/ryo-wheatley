@@ -56,19 +56,23 @@ body {
   font-size: 50px;
 }
 
-#bio {
+.content-box-container {
   width: 100%;
   font-family: verdana;
   font-size: 12px;
   text-align: justify;
 }
 
-#bio h1 {
+.content-box-container h1 {
   font-family: MarckScript;
   font-size: 40px;
 }
 
-#skills {
+#skillsCanvas img {
+  width: 32px;
+}
+
+#glass {
   background-image: url('/imgs/bg-glass.jpg');
   height: 70vh;
 }

@@ -1,0 +1,207 @@
+/* Small tech logo sprites */
+.angular-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -4px -16px;
+	width: 59px;
+	height: 61px;
+}
+
+.auth0-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -74px -14px;
+	width: 64px;
+	height: 71px;
+}
+
+.aws-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -149px -15px;
+	width: 61px;
+	height: 39px;
+}
+
+.backbone-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -218px -16px;
+	width: 65px;
+	height: 80px;
+}
+
+.bootstrap-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -294px -16px;
+	width: 63px;
+	height: 62px;
+}
+
+.bower-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -364px -21px;
+	width: 64px;
+	height: 57px;
+}
+
+.chai-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -432px -18px;
+	width: 60px;
+	height: 68px;
+}
+
+.cplusplus-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -4px -82px;
+	width: 58px;
+	height: 65px;
+}
+
+.css3-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -74px -89px;
+	width: 57px;
+	height: 64px;
+}
+
+.d3-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -142px -90px;
+	width: 65px;
+	height: 61px;
+}
+
+.express-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -150px -67px;
+	width: 54px;
+	height: 13px;
+}
+
+.git-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -224px -98px;
+	width: 56px;
+	height: 55px;
+}
+
+.github-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -294px -96px;
+	width: 61px;
+	height: 60px;
+}
+
+.grunt-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -368px -96px;
+	width: 46px;
+	height: 62px;
+}
+
+.gulp-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -429px -98px;
+	width: 65px;
+	height: 64px;
+}
+
+.heroku-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -6px -160px;
+	width: 37px;
+	height: 57px;
+}
+
+.html5-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -57px -158px;
+	width: 57px;
+	height: 65px;
+}
+
+.jasmine-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -136px -162px;
+	width: 55px;
+	height: 53px;
+}
+
+.javascript-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -207px -160px;
+	width: 65px;
+	height: 64px;
+}
+
+.jquery-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -295px -164px;
+	width: 62px;
+	height: 64px;
+}
+
+.karma-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -365px -168px;
+	width: 55px;
+	height: 43px;
+}
+
+.mocha-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -431px -173px;
+	width: 63px;
+	height: 66px;
+}
+
+.mongo-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -3px -230px;
+	width: 61px;
+	height: 72px;
+}
+
+.mongoose-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -365px -217px;
+	width: 64px;
+	height: 13px;
+}
+
+.mysql-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -78px -233px;
+	width: 65px;
+	height: 33px;
+}
+
+.npm-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -78px -275px;
+	width: 63px;
+	height: 25px;
+}
+
+.node-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -160px -231px;
+	width: 57px;
+	height: 63px;
+}
+
+.oauth-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -229px -237px;
+	width: 60px;
+	height: 59px;
+}
+
+.postgres-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -297px -239px;
+	width: 60px;
+	height: 55px;
+}
+
+.react-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -366px -241px;
+	width: 62px;
+	height: 54px;
+}
+
+.redux-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -435px -244px;
+	width: 62px;
+	height: 58px;
+}
+
+.sequelize-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -4px -306px;
+	width: 56px;
+	height: 65px;
+}
+
+.socket-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -75px -306px;
+	width: 64px;
+	height: 65px;
+}
+
+.webpack-small {
+	background: url('/imgs/sprites/small-sprites.png') no-repeat -157px -305px;
+	width: 56px;
+	height: 64px;
+}
+
+.sprite {display: block; background: transparent url('/imgs/sprites/big-sprites.png') no-repeat; }
+.angular-big { background-position: 0 0; width: 128px; height: 130px}
