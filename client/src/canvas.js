@@ -1,7 +1,7 @@
 /* global $ */
 $(document).ready(function () {
-  var width = ($('#skillsCanvasContainer').width() * 0.5) + 'px';
-  $('#skillsCanvas').attr('width', width).attr('height', width);
+  // var width = ($('#skillsCanvasContainer').width() * 0.5) + 'px';
+  // $('#skillsCanvas').attr('width', width).attr('height', width);
   if (!$('#skillsCanvas').tagcanvas({
     imageMode: 'image',
     freezeActive: true,

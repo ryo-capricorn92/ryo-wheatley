@@ -68,8 +68,8 @@ body {
   font-size: 40px;
 }
 
-#skillsCanvas img {
-  width: 32px;
+#skillsCanvas {
+  width: 50%;
 }
 
 #glass {
