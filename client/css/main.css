@@ -13,17 +13,6 @@ body {
   background-color: inherit;
 }
 
-.center-parent {
-  position: relative;
-}
-
-.full-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .image {
   max-width: 100%;
 }
@@ -69,7 +58,7 @@ body {
 }
 
 #skillsCanvas {
-  width: 50%;
+  width: 100%;
 }
 
 #glass {

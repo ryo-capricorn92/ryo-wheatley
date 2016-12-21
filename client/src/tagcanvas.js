@@ -1354,11 +1354,6 @@
     x += (xoff / s) - (w / 2);
     y += (yoff / s) - (h / 2);
     c.setTransform(s, 0, 0, s, s * x, s * y);
-    if (!window.logCount || window.logCount < 50) {
-      console.log(i.width);
-      window.logCount = window.logCount || 0;
-      window.logCount++;
-    }
     c.drawImage(i, ix, iy, w, h, 0, 0, w, h);
   };
   Tproto.DrawImageIE = function(c,xoff,yoff) {
@@ -1410,14 +1405,16 @@
       }
       return;
     }
-    if(doc.createEvent) {
-      evt = doc.createEvent('MouseEvents');
-      evt.initMouseEvent('click', 1, 1, window, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null);
-      if(!a.dispatchEvent(evt))
-        return;
-    } else if(a.fireEvent) {
-      if(!a.fireEvent('onclick'))
-        return;
+    if (!$(a).click()) {
+      if(doc.createEvent) {
+        evt = doc.createEvent('MouseEvents');
+        evt.initMouseEvent('click', 1, 1, window, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null);
+        if(!a.dispatchEvent(evt))
+          return;
+      } else if(a.fireEvent) {
+        if(!a.fireEvent('onclick'))
+          return;
+      }
     }
     doc.location = h;
   };
@@ -1584,7 +1581,7 @@
       if(tc[i] != ' ') {
         p = i - tc.length / 2;
         a = doc.createElement('A');
-        a.href = '#';
+        a.href = 'javascript:void(0);';
         a.innerText = tc[i];
         x = 100 * sin(p / 9);
         z = -100 * cos(p / 9);
